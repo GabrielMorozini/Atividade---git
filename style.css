@@ -1,4 +1,5 @@
 /* Configurações gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,9 @@ body {
     line-height: 1.7;
 }
 
+
+/* Seção principal */
+
 section {
     background-color: white;
     padding: 30px;
@@ -19,6 +23,9 @@ section {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
 }
+
+
+/* Título */
 
 section h2 {
     color: #315c43;
@@ -28,13 +35,18 @@ section h2 {
     padding-left: 12px;
 }
 
+
+/* Parágrafos */
+
 section p {
     font-size: 17px;
     text-align: justify;
     margin-bottom: 15px;
 }
 
+
 /* Imagens */
+
 img {
     width: 100%;
     max-height: 400px;
@@ -43,7 +55,36 @@ img {
     margin: 15px 0;
 }
 
+/* Rodapé */
+
+.links {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #315c43;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.links p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.links a {
+    color: #c5dfc9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+
 @media (max-width: 600px) {
+
     section {
         padding: 20px;
     }
@@ -55,4 +96,5 @@ img {
     section p {
         font-size: 15px;
     }
+
 }
