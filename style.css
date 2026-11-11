@@ -1,0 +1,59 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f3f5f2;
+    color: #333;
+    line-height: 1.7;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+section h2 {
+    color: #315c43;
+    font-size: 26px;
+    margin-bottom: 15px;
+    border-left: 5px solid #719b78;
+    padding-left: 12px;
+}
+
+section p {
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    section p {
+        font-size: 15px;
+    }
+}
